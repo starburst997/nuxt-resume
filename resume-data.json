@@ -62,7 +62,7 @@
       "highlights": [
         "Audio engine made from scratch",
         "Vast library of user-generated content (website)",
-        "Support iOS / Android / Windows / Mac and WebGL"
+        "Cross-platform iOS / Android / Windows / Mac / WebGL"
       ],
       "position": "Founder",
       "startDate": "2020-04-01",
@@ -440,6 +440,10 @@
           "website": "https://aws.amazon.com/"
         },
         {
+          "display": "Kubernetes",
+          "website": "https://kubernetes.io/"
+        },
+        {
           "display": "WPF",
           "website": "https://en.wikipedia.org/wiki/Windows_Presentation_Foundation"
         }
@@ -448,19 +452,21 @@
     {
       "name": "Concepts",
       "keywords": [
-        "Multiplayer / Network",
-        "Graphics / Shaders",
         "Adobe Creative Suite",
-        "Version control (GIT / SVN / Perforce)",
-        "Continuous integration / deployment (CI/CD)",
-        "Automated testing",
-        "REST API design",
-        "Responsive design",
-        "Fullstack",
+        "Full-Stack",
         "Game Dev",
         "Web Dev",
+        "Version control (GIT / SVN / Perforce)",
+        "Responsive design",
+        "Continuous integration / deployment (CI / CD)",
         "Electronics",
-        "Audio"
+        "Multiplayer / Network",
+        "Graphics / Shaders",
+        "Automated testing",
+        "REST API design",
+        "Audio",
+        "Profiling",
+        "Optimisation"
       ]
     }
   ],

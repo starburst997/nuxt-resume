@@ -15,7 +15,6 @@
            text-xl md:text-base print:text-base
            shadow-none paper:shadow-2xl print:shadow-none
            bg-ivory print:bg-transparent"
-      style="padding: 3.8rem"
     >
       <Header />
       <Content class="flex-grow" />

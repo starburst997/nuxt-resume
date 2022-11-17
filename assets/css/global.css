@@ -39,10 +39,22 @@ h1 {
          pb-4;
 }
 
+.paper-page {
+  padding: 3.8rem;
+}
+
+.flex-1:first-child .mb-6 {
+  margin-bottom: 1.85rem;
+}
+
 @media screen and (max-width: 8.5in) {
   html,
   body {
     @apply bg-transparent;
+  }
+
+  .paper-page {
+    padding: 2.5rem;
   }
 }
 
@@ -52,6 +64,14 @@ h1 {
 
     font-size: 3.75rem;
     margin-bottom: 1rem;
+  }
+
+  .paper-page {
+    padding: 1.0rem;
+  }
+
+  .flex-1:first-child .mb-6 {
+    margin-bottom: 1.5rem;
   }
 }
 
