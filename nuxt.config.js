@@ -164,6 +164,9 @@ const config = {
     port: 3001,
     host: '0.0.0.0',
   },
+  generate: {
+    dir: 'git/resume',
+  },
 };
 
 export default config;

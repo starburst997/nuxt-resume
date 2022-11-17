@@ -97,3 +97,5 @@ resume-data.private.*
 
 # Gems
 vendor/ruby
+
+git
