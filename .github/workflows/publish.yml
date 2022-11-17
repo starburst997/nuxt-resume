@@ -24,26 +24,11 @@ jobs:
           ref: "master"
           lfs: false
           token: ${{ secrets.pat }}
-      - name: Detect package manager
-        id: detect-package-manager
-        run: |
-          if [ -f "${{ github.workspace }}/yarn.lock" ]; then
-            echo "::set-output name=manager::yarn"
-            echo "::set-output name=command::install"
-            exit 0
-          elif [ -f "${{ github.workspace }}/package.json" ]; then
-            echo "::set-output name=manager::npm"
-            echo "::set-output name=command::ci"
-            exit 0
-          else
-            echo "Unable to determine packager manager"
-            exit 1
-          fi
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: "16"
-          cache: ${{ steps.detect-package-manager.outputs.manager }}
+          cache: yarn
       - name: Restore cache
         uses: actions/cache@v3
         with:
@@ -53,30 +38,25 @@ jobs:
           key: ${{ runner.os }}-nuxt-build-${{ hashFiles('git/resume') }}
           restore-keys: |
             ${{ runner.os }}-nuxt-build-
-      - name: Set outputs
-        id: vars
-        run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-      - name: Check outputs
-        run: echo ${{ steps.vars.outputs.sha_short }}
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+        run: yarn install
       - name: Test
-        run: ${{ steps.detect-package-manager.outputs.manager }} run test
+        run: yarn run test
       - name: Lint
-        run: ${{ steps.detect-package-manager.outputs.manager }} run lint
+        run: yarn run lint
       - name: Create env file
         run: |
           touch .env
           echo "CI=1" >> .env
           echo "CI_PROJECT_URL='https://github.com/starburst997/nuxt-resume'" >> .env
-          echo "CI_COMMIT_SHORT_SHA='${{ steps.vars.outputs.sha_short }}'" >> .env
+          echo "CI_COMMIT_SHORT_SHA='$(git rev-parse --short HEAD)'" >> .env
           echo "NODE_ENV='production'" >> .env
       - name: Check outputs env
         run: cat .env
       - name: Static HTML export with Nuxt
         run: |
-          ${{ steps.detect-package-manager.outputs.manager }} run generate
-          ${{ steps.detect-package-manager.outputs.manager }} run strip-scripts
+          yarn run generate
+          yarn run strip-scripts
       - name: Install Chrome
         uses: browser-actions/setup-chrome@latest
       - name: Generate PDF

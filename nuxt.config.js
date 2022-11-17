@@ -147,11 +147,9 @@ const config = {
   },
   env: {
     isProduction: Boolean(process.env.CI),
-    gitlabCi: {
-      timestamp: new Date().toISOString(),
-      projectUrl: process.env.CI_PROJECT_URL,
-      commitSha: process.env.CI_COMMIT_SHORT_SHA,
-    },
+    timestamp: new Date().toISOString(),
+    projectUrl: process.env.CI_PROJECT_URL,
+    commitSha: process.env.CI_COMMIT_SHORT_SHA,
 
     // // comment above and uncomment below
     // // to simulate production environment
