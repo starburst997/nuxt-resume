@@ -5,6 +5,6 @@ chromium-browser --headless \
                  --disable-software-rasterizer \
                  --disable-dev-shm-usage \
                  --no-sandbox \
-                 --print-to-pdf="$CI_PROJECT_DIR/dist/Nathan Friend - Résumé.pdf" \
+                 --print-to-pdf="$CI_PROJECT_DIR/dist/Jean-Denis Boivin - Résumé.pdf" \
                  --hide-scrollbars \
                  file://$CI_PROJECT_DIR/dist/index.html

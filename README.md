@@ -1,5 +1,13 @@
 # Nuxt Résumé
 
+Forked from [Nathan Friend](https://nathanfriend.io/)'s [Nuxt Résumé](https://gitlab.com/nfriend/nuxt-resume) over at Gitlab.
+
+I really loved the presentation and concise nature of it. Credit goes to him, I simply adapt it with my info.
+
+[See my résumé](https://jd.boiv.in/resume)
+
+--------------
+
 <a href="https://gitlab.com/nfriend/nuxt-resume/pipelines/latest"
   target="_blank"><img
   src="https://gitlab.com/nfriend/nuxt-resume/badges/master/pipeline.svg"

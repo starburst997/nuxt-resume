@@ -46,10 +46,7 @@ const getWorkInfo = (resumeData, filterFn) => {
  * @returns {Object[]} An array of section objects
  */
 export const getProfessionalWorkInfo = resumeData => {
-  return getWorkInfo(
-    resumeData,
-    w => !['parttime', 'internship'].includes(w.type),
-  );
+  return getWorkInfo(resumeData, w => !['more'].includes(w.type));
 };
 
 /**
@@ -59,9 +56,7 @@ export const getProfessionalWorkInfo = resumeData => {
  * @returns {Object[]} An array of section objects
  */
 export const getOtherWorkInfo = resumeData => {
-  return getWorkInfo(resumeData, w =>
-    ['parttime', 'internship'].includes(w.type),
-  );
+  return getWorkInfo(resumeData, w => ['more'].includes(w.type));
 };
 
 /**

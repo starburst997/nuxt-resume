@@ -1,319 +1,395 @@
 {
   "basics": {
-    "name": "Nathan Friend",
+    "name": "Jean-Denis Boivin",
     "nameKerned": [
-      { "character": "N", "letterSpacing": "-0.08em" },
-      { "character": "a", "letterSpacing": "-0.07em" },
-      { "character": "t", "letterSpacing": "-0.01em" },
-      { "character": "h", "letterSpacing": "-0.05em" },
-      { "character": "a", "letterSpacing": "-0.04em" },
-      { "character": "n", "letterSpacing": "-0.05em" },
-      " ",
-      { "character": "F", "letterSpacing": "-0.06em" },
-      { "character": "r", "letterSpacing": "-0.01em" },
-      { "character": "i", "letterSpacing": "-0.05em" },
+      { "character": "J", "letterSpacing": "-0.05em" },
+      { "character": "e", "letterSpacing": "-0.06em" },
+      { "character": "a", "letterSpacing": "-0.03em" },
+      { "character": "n", "letterSpacing": "-0.08em" },
+      { "character": "-", "letterSpacing": "-0.08em" },
+      { "character": "D", "letterSpacing": "-0.05em" },
       { "character": "e", "letterSpacing": "-0.05em" },
-      { "character": "n", "letterSpacing": "-0.07em" },
-      "d"
+      { "character": "n", "letterSpacing": "-0.03em" },
+      { "character": "i", "letterSpacing": "-0.05em" },
+      { "character": "s", "letterSpacing": "-0.05em" },
+      { "character": " ", "letterSpacing": "-0.00em" },
+      { "character": "B", "letterSpacing": "-0.05em" },
+      { "character": "o", "letterSpacing": "-0.05em" },
+      { "character": "i", "letterSpacing": "-0.05em" },
+      { "character": "v", "letterSpacing": "-0.02em" },
+      { "character": "i", "letterSpacing": "-0.05em" },
+      { "character": "n", "letterSpacing": "0.00em" }
     ],
     "label": "Software Engineer",
-    "picture": "https://secure.gravatar.com/avatar/cd23f74a33fc7d8dfe081948696551a5?s=800&d=robohash",
-    "email": "hello@nathanfriend.io",
-    "website": "https://nathanfriend.io",
-    "summary": "Senior Frontend Engineer at GitLab and cellist based out of Woodstock, Ontario. Fascinated with building usable, delightful software. Remote work advocate.",
+    "picture": "https://jd.boiv.in/JD.jpg",
+    "email": "jd@boiv.in",
+    "website": "https://jd.boiv.in",
+    "summary": "Programmer since a little kid and based out of Montréal, Québec. Currently having fun with Unity and Haxe.",
     "location": {
-      "city": "Woodstock",
+      "city": "Montréal",
       "countryCode": "CA",
-      "region": "ON"
+      "region": "QC"
     },
     "profiles": [
       {
-        "network": "GitLab",
-        "username": "nfriend",
-        "url": "https://gitlab.com/nfriend"
-      },
-      {
         "network": "GitHub",
-        "username": "nfriend",
-        "url": "https://github.com/nfriend"
+        "username": "starburst997",
+        "url": "https://github.com/starburst997"
       },
       {
         "network": "LinkedIn",
-        "username": "nfriend",
-        "url": "https://www.linkedin.com/in/nfriend/"
-      },
-      {
-        "network": "Stack Overflow",
-        "username": "nathan-friend",
-        "url": "https://stackoverflow.com/cv/nathanfriend"
+        "username": "jeandenisboivin",
+        "url": "https://www.linkedin.com/in/jeandenisboivin/?locale=en_US"
       },
       {
         "network": "Twitter",
-        "username": "NathanAFriend",
-        "url": "https://twitter.com/NathanAFriend"
+        "username": "starburst997",
+        "url": "https://www.twitter.com/starburst997"
+      },
+      {
+        "network": "YouTube",
+        "username": "starburst997",
+        "url": "https://www.youtube.com/starburst997"
       }
     ]
   },
 
   "work": [
     {
-      "company": "Stripe",
-      "website": "https://stripe.com/",
-      "summary": "I build economic infrastructure for the internet.",
-      "highlights": ["Worked 100% remotely on the Connect team"],
-      "position": "Remote Fullstack Engineer",
-      "startDate": "2021-08-23",
+      "company": "Notessimo",
+      "website": "https://notessimo.net/",
+      "summary": "Making a fun and collaborative music composer in Unity.",
+      "highlights": [
+        "Audio engine made from scratch",
+        "Vast library of user-generated content (website)",
+        "Support iOS / Android / Windows / Mac and WebGL"
+      ],
+      "position": "Founder",
+      "startDate": "2020-04-01",
       "tags": [
+        {
+          "display": "Unity",
+          "website": "https://unity.com/"
+        },
+        {
+          "display": "Next.js",
+          "website": "https://nextjs.org/"
+        },
+        {
+          "display": "C#",
+          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+        },
         {
           "display": "React",
           "website": "https://reactjs.org/"
         },
         {
-          "display": "Flow",
-          "website": "https://flow.org/"
+          "display": "Discourse",
+          "website": "https://www.discourse.org/"
         },
         {
-          "display": "Ruby",
-          "website": "https://www.ruby-lang.org/"
+          "display": "Kubernetes",
+          "website": "https://kubernetes.io/"
         },
         {
-          "display": "Rails",
-          "website": "https://rubyonrails.org/"
-        }
-      ]
-    },
-    {
-      "company": "GitLab",
-      "website": "https://about.gitlab.com",
-      "summary": "I built features that help people release software more quickly, easily, and effectively.",
-      "highlights": [
-        "Implemented high-profile features such as [Let's Encrypt integration](https://docs.gitlab.com/omnibus/settings/ssl.html#lets-encrypt-integration), [merge trains](https://docs.gitlab.com/ee/ci/merge_request_pipelines/pipelines_for_merged_results/merge_trains/), [deploy freezes](https://docs.gitlab.com/ee/user/project/releases/index.html#prevent-unintentional-releases-by-setting-a-deploy-freeze), [DORA 4 metrics](https://about.gitlab.com/releases/2021/01/22/gitlab-13-8-released/#improve-your-devops-maturity-with-deployment-frequency-metrics), and [markdown editor keyboard shortcuts](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/40328)",
-        "Pushed Release vision forward through in-depth technical and business analysis",
-        "Reviewed and guided community contributions",
-        "Maintainer of [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab/)",
-        "Performed technical and behavioral interviews",
-        "Worked 100% remotely"
-      ],
-      "position": "Senior Frontend Engineer",
-      "startDate": "2018-12-10",
-      "endDate": "2021-08-20",
-      "tags": [
-        {
-          "display": "Vue.js",
-          "website": "https://vuejs.org/"
-        },
-        {
-          "display": "JavaScript",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-        },
-        {
-          "display": "SCSS",
-          "website": "https://sass-lang.com/"
-        },
-        {
-          "display": "Haml",
-          "website": "https://github.com/haml/haml"
-        },
-        {
-          "display": "Ruby",
-          "website": "https://www.ruby-lang.org/"
-        },
-        {
-          "display": "GraphQL",
-          "website": "https://graphql.org/"
-        },
-        {
-          "display": "Go",
-          "website": "https://golang.org/"
-        }
-      ]
-    },
-    {
-      "company": "DeltaWare",
-      "website": "https://maximuscanada.ca/locations",
-      "summary": "I led efforts to rebuild legacy healthcare software as modern web applications with an emphasis on usability.",
-      "highlights": [
-        "Led AngularJS to Angular 2+ conversion",
-        "Implemented fast, intuitive searching using Solr"
-      ],
-      "position": "Project Architect",
-      "startDate": "2016-08-03",
-      "endDate": "2018-12-05",
-      "tags": [
-        {
-          "display": "Angular",
-          "website": "https://angular.io/"
-        },
-        {
-          "display": "TypeScript",
-          "website": "https://www.typescriptlang.org/"
-        },
-        {
-          "display": "Solr",
-          "website": "https://lucene.apache.org/solr/"
-        },
-        {
-          "display": "Node",
-          "website": "https://nodejs.org/"
-        },
-        {
-          "display": "ASP.NET",
-          "website": "https://www.asp.net/"
-        },
-        {
-          "display": "Oracle",
-          "website": "https://www.oracle.com/"
-        }
-      ]
-    },
-    {
-      "company": "DuPont Pioneer",
-      "website": "https://www.pioneer.com/us",
-      "summary": "I worked on a fertilizer optimization SaaS for farmers.",
-      "highlights": [
-        "Built mapping features using Leaflet and Bing Maps",
-        "Rebuilt Gulp builds to maximize developer efficiency"
-      ],
-      "position": "Software Development Specialist",
-      "startDate": "2013-05-20",
-      "endDate": "2016-07-20",
-      "tags": [
-        {
-          "display": "Angular",
-          "website": "https://angular.io/"
-        },
-        {
-          "display": "Knockout",
-          "website": "https://knockoutjs.com/"
-        },
-        {
-          "display": "TypeScript",
-          "website": "https://www.typescriptlang.org/"
-        },
-        {
-          "display": "ASP.NET",
-          "website": "https://www.asp.net/"
-        },
-        {
-          "display": "WPF",
-          "website": "https://en.wikipedia.org/wiki/Windows_Presentation_Foundation"
-        },
-        {
-          "display": "C♯",
-          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
-        }
-      ]
-    },
-    {
-      "company": "Visual Logic Group",
-      "website": "https://vlgux.com/",
-      "summary": "",
-      "position": "UX Development Intern",
-      "startDate": "2013-01-15",
-      "endDate": "2013-05-01",
-      "type": "internship",
-      "tags": [
-        {
-          "display": "JavaScript",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-        },
-        {
-          "display": "CSS",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/CSS"
-        }
-      ]
-    },
-    {
-      "company": "Dordt University",
-      "website": "https://www.dordt.edu/",
-      "summary": "",
-      "position": "Web Developer",
-      "startDate": "2012-01-20",
-      "endDate": "2013-05-10",
-      "type": "parttime",
-      "tags": [
-        {
-          "display": "Perl",
-          "website": "https://www.perl.org/"
+          "display": "PostgreSQL",
+          "website": "https://www.postgresql.org/"
         },
         {
           "display": "PHP",
           "website": "https://www.php.net/"
         },
         {
-          "display": "Drupal",
-          "website": "https://www.drupal.org/"
+          "display": "JavaScript",
+          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "display": "TypeScript",
+          "website": "https://www.typescriptlang.org/"
+        },
+        {
+          "display": "SCSS",
+          "website": "https://sass-lang.com/"
         }
       ]
     },
     {
-      "company": "DuPont Pioneer",
-      "website": "https://www.pioneer.com/us",
-      "summary": "",
-      "position": "Software Development Intern",
-      "startDate": "2012-05-20",
-      "endDate": "2012-08-05",
-      "type": "internship",
+      "company": "Thunder Lotus Games",
+      "website": "https://thunderlotusgames.com/",
+      "summary": "I built internal tools (animation) as well as overseeing the multiplayer tech for an unanounced project in Unity.",
+      "highlights": [
+        "Changed the tech stack to better suit the project"
+      ],
+      "position": "Tech Lead",
+      "startDate": "2019-10-01",
+      "endDate": "2020-04-01",
       "tags": [
+        {
+          "display": "Unity",
+          "website": "https://unity.com/"
+        },
+        {
+          "display": "C#",
+          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+        },
+        {
+          "display": "ECS",
+          "website": "https://unity.com/ecs"
+        },
+        {
+          "display": "Quantum (Photon)",
+          "website": "https://www.photonengine.com/quantum"
+        }
+      ]
+    },
+    {
+      "company": "Mino Games",
+      "website": "https://www.minogames.com/",
+      "summary": "Worked on the mobile game \"Cat Game\" (10M+ downloads). Was in charge of pretty much everything tech related.",
+      "highlights": [
+        "Designed the minigames",
+        "Designed some of the formula progression",
+        "Wrote a major portion of the whole codebase",
+        "Performed technical interviews",
+        "Wrote a rendering engine"
+      ],
+      "position": "CTO",
+      "startDate": "2017-06-01",
+      "endDate": "2019-10-01",
+      "tags": [
+        {
+          "display": "Haxe",
+          "website": "https://haxe.org/"
+        },
+        {
+          "display": "OpenFL",
+          "website": "https://www.openfl.org/"
+        },
         {
           "display": "JavaScript",
           "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "display": "Node",
+          "website": "https://nodejs.org/"
+        },
+        {
+          "display": "DynamoDB",
+          "website": "https://aws.amazon.com/dynamodb/"
+        },
+        {
+          "display": "BigQuery",
+          "website": "https://cloud.google.com/bigquery"
+        },
+        {
+          "display": "Java",
+          "website": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+        },
+        {
+          "display": "Objective-C",
+          "website": "https://en.wikipedia.org/wiki/Objective-C"
+        },
+        {
+          "display": "C++",
+          "website": "https://en.wikipedia.org/wiki/C%2B%2B"
+        }
+      ]
+    },
+    {
+      "company": "CINCO Lab",
+      "website": "https://wearecinco.com/",
+      "summary": "Created multiple websites / experiences / apps (hardware & software) for this marketing agency, mainly used in events to promote brands.",
+      "highlights": [
+        "VR / AR experiences in Unity",
+        "Helped with the production of 3D video (VR)"
+      ],
+      "position": "Lead Programmer",
+      "startDate": "2015-11-01",
+      "endDate": "2016-12-01",
+      "tags": [
+        {
+          "display": "Unity",
+          "website": "https://unity.com/"
+        },
+        {
+          "display": "Angular",
+          "website": "https://angular.io/"
+        },
+        {
+          "display": "React Native",
+          "website": "https://reactnative.dev/"
+        },
+        {
+          "display": "Raspberry Pi",
+          "website": "https://www.raspberrypi.org/"
+        },
+        {
+          "display": "Arduino",
+          "website": "https://www.arduino.cc/"
+        },
+        {
+          "display": "JavaScript",
+          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "display": "PHP",
+          "website": "https://www.php.net/"
+        },
+        {
+          "display": "C#",
+          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+        },
+        {
+          "display": "C",
+          "website": "https://en.wikipedia.org/wiki/C_(programming_language)"
+        },
+        {
+          "display": "Objective-C",
+          "website": "https://en.wikipedia.org/wiki/Objective-C"
+        },
+        {
+          "display": "Swift",
+          "website": "https://www.swift.org/"
+        },
+        {
+          "display": "MySQL",
+          "website": "https://www.mysql.com/"
+        }
+      ]
+    },
+    {
+      "company": "Bethesda Game Studios (Austin, TX)",
+      "website": "https://bethesdagamestudios.com/",
+      "summary": "Develop the UI for the cancelled game Battle Cry",
+      "position": "UI Developer",
+      "startDate": "2015-03-01",
+      "endDate": "2015-11-01",
+      "type": "more",
+      "tags": [
+        {
+          "display": "Scaleform",
+          "website": "https://en.wikipedia.org/wiki/Scaleform_GFx"
+        },
+        {
+          "display": "AS2",
+          "website": "https://en.wikipedia.org/wiki/ActionScript"
+        }
+      ]
+    },
+    {
+      "company": "FailSafe Games",
+      "website": "https://www.failsafegames.com/",
+      "summary": "Flash Games / Mobile Ports and Websites for clients.",
+      "highlights": [
+        "Game Jam winner",
+        "Developed a mobile prototype for Tetris",
+        "Developed a MMORPG for the Sift Heads franchise"
+      ],
+      "position": "Co-founder",
+      "startDate": "2010-02-01",
+      "endDate": "2015-03-01",
+      "type": "more",
+      "tags": [
+        {
+          "display": "Flash",
+          "website": "https://en.wikipedia.org/wiki/Adobe_Flash"
+        },
+        {
+          "display": "AS3",
+          "website": "https://en.wikipedia.org/wiki/ActionScript"
+        },
+        {
+          "display": "Haxe",
+          "website": "https://haxe.org/"
+        },
+        {
+          "display": "OpenFL",
+          "website": "https://www.openfl.org/"
+        },
+        {
+          "display": "Java",
+          "website": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+        },
+        {
+          "display": "Objective-C",
+          "website": "https://en.wikipedia.org/wiki/Objective-C"
+        },
+        {
+          "display": "SmartFoxServer",
+          "website": "https://www.smartfoxserver.com/"
         },
         {
           "display": "jQuery",
           "website": "https://jquery.com/"
         },
         {
-          "display": "ASP.NET",
-          "website": "https://www.asp.net/"
+          "display": "PHP",
+          "website": "https://www.php.net/"
         },
         {
-          "display": "C♯",
-          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+          "display": "MySQL",
+          "website": "https://www.mysql.com/"
         }
       ]
     },
     {
-      "company": "SnupNow",
-      "summary": "",
-      "position": "Web Development Intern",
-      "startDate": "2011-04-15",
-      "endDate": "2011-08-05",
-      "type": "internship",
+      "company": "ODD1",
+      "website": "",
+      "summary": "Developed dozens of flash games for this defunct Montréal company, mostly for cartoon TV shows.",
+      "position": "Programmer",
+      "startDate": "2008-07-01",
+      "endDate": "2010-02-01",
+      "type": "more",
       "tags": [
         {
-          "display": "HTML",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+          "display": "Flash",
+          "website": "https://en.wikipedia.org/wiki/Adobe_Flash"
         },
         {
-          "display": "CSS",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          "display": "AS3",
+          "website": "https://en.wikipedia.org/wiki/ActionScript"
+        },
+        {
+          "display": "Objective-C",
+          "website": "https://en.wikipedia.org/wiki/Objective-C"
+        },
+        {
+          "display": "PHP",
+          "website": "https://www.php.net/"
+        },
+        {
+          "display": "MySQL",
+          "website": "https://www.mysql.com/"
         }
       ]
     }
   ],
   "education": [
-    {
-      "institution": "Iowa State University",
-      "website": "https://www.iastate.edu/",
-      "startDate": "2015-08-01",
-      "endDate": "2019-08-15",
-      "area": "Human-Computer Interaction",
-      "studyType": "Master"
-    },
-    {
-      "institution": "Dordt University",
-      "website": "https://www.dordt.edu/",
-      "startDate": "2009-08-01",
-      "endDate": "2013-05-10",
-      "area": "Computer Science",
-      "studyType": "Bachelor"
-    }
+    
   ],
   "skills": [
     {
       "name": "Languages",
       "keywords": [
+        {
+          "display": "French"
+        },
+        {
+          "display": "English"
+        }
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        {
+          "display": "C#",
+          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+        },
+        {
+          "display": "Haxe",
+          "website": "https://haxe.org/"
+        },
         {
           "display": "JavaScript",
           "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -323,16 +399,12 @@
           "website": "https://www.typescriptlang.org/"
         },
         {
-          "display": "Dart",
-          "website": "https://dart.dev/"
+          "display": "PHP",
+          "website": "https://www.php.net/"
         },
         {
-          "display": "C♯",
-          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
-        },
-        {
-          "display": "Ruby",
-          "website": "https://www.ruby-lang.org/en/"
+          "display": "C",
+          "website": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
           "display": "SCSS",
@@ -348,28 +420,24 @@
       "name": "Frameworks",
       "keywords": [
         {
-          "display": "Vue.js",
-          "website": "https://vuejs.org/"
+          "display": "Unity",
+          "website": "https://unity.com/"
         },
         {
-          "display": "Angular",
-          "website": "https://angular.io/"
+          "display": "Next.js",
+          "website": "https://nextjs.org/"
         },
         {
           "display": "React",
           "website": "https://reactjs.org/"
         },
         {
-          "display": "Flutter",
-          "website": "https://flutter.dev/"
+          "display": "OpenFL",
+          "website": "https://www.openfl.org/"
         },
         {
-          "display": "Rails",
-          "website": "https://rubyonrails.org/"
-        },
-        {
-          "display": "ASP.NET",
-          "website": "https://www.asp.net/"
+          "display": "AWS",
+          "website": "https://aws.amazon.com/"
         },
         {
           "display": "WPF",
@@ -380,14 +448,19 @@
     {
       "name": "Concepts",
       "keywords": [
-        "Continuous integration/deployment (CI/CD)",
+        "Multiplayer / Network",
+        "Graphics / Shaders",
+        "Adobe Creative Suite",
+        "Version control (GIT / SVN / Perforce)",
+        "Continuous integration / deployment (CI/CD)",
         "Automated testing",
-        "REST/GraphQL API design",
-        "Cross-browser debugging",
+        "REST API design",
         "Responsive design",
-        "Developer workflow optimization",
-        "Single Page Applications (SPAs)",
-        "Internationalization (i18n)"
+        "Fullstack",
+        "Game Dev",
+        "Web Dev",
+        "Electronics",
+        "Audio"
       ]
     }
   ],

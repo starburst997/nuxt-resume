@@ -10,14 +10,15 @@ const config = {
     htmlAttrs: {
       lang: 'en',
     },
-    title: 'Nathan Friend - Résumé',
+    title: 'Jean-Denis Boivin - Résumé',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: "Nathan Friend's résumé. Built with NuxtJS and Tailwind CSS.",
+        content:
+          "Jean-Denis Boivin's résumé. Built with NuxtJS and Tailwind CSS.",
       },
       {
         property: 'og:type',
@@ -25,15 +26,16 @@ const config = {
       },
       {
         property: 'og:title',
-        content: 'Nathan Friend - Résumé',
+        content: 'Jean-Denis Boivin - Résumé',
       },
       {
         property: 'og:description',
-        content: "Nathan Friend's résumé. Built with NuxtJS and Tailwind CSS.",
+        content:
+          "Jean-Denis Boivin's résumé. Built with NuxtJS and Tailwind CSS.",
       },
       {
         property: 'og:image',
-        content: 'https://resume.nathanfriend.io/screenshot.png',
+        content: 'https://jd.boiv.in/resume/screenshot.png',
       },
       {
         property: 'og:image:type',
@@ -100,7 +102,7 @@ const config = {
         class: 'do-not-strip',
       },
       {
-        src: 'https://www.google-analytics.com/analytics.js',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-FJ1LGLFEE1',
         async: true,
         body: true,
         class: 'do-not-strip',
@@ -154,12 +156,12 @@ const config = {
     // isProduction: true,
     // gitlabCi: {
     //   timestamp: new Date().toISOString(),
-    //   projectUrl: 'https://gitlab.com/nfriend/nuxt-resume',
+    //   projectUrl: 'https://github.com/starburst997/nuxt-resume',
     //   commitSha: 'c6d21f92',
     // },
   },
   server: {
-    port: 3000,
+    port: 3001,
     host: '0.0.0.0',
   },
 };

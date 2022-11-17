@@ -94,15 +94,11 @@ export default {
         {
           sections: [
             {
-              title: 'Education',
-              subsections: helpers.getEducationInfo(this.resumeData),
-            },
-            {
               title: 'Skills',
               subsections: helpers.getSkillsInfo(this.resumeData),
             },
             {
-              title: 'Internships/Part-time',
+              title: 'Experience (more)',
               subsections: helpers.getOtherWorkInfo(this.resumeData),
             },
           ],

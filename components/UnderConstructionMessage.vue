@@ -5,7 +5,7 @@
     </p>
     <p>
       In the meantime, check out the source at
-      <a href="https://gitlab.com/nfriend/nuxt-resume">GitLab.</a>
+      <a href="https://github.com/starburst997/nuxt-resume">Github.</a>
     </p>
   </div>
 </template>
