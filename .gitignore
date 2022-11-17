@@ -99,3 +99,4 @@ resume-data.private.*
 vendor/ruby
 
 git
+git/resume

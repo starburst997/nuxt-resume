@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable prettier/prettier */
 
 const path = require('path');
 const puppeteer = require('puppeteer');
@@ -16,11 +17,11 @@ const puppeteer = require('puppeteer');
     deviceScaleFactor: 1,
   });
 
-  await page.goto(`file://${process.env.CI_PROJECT_DIR}/dist/index.html`, {
+  await page.goto(`file://${process.env.CI_PROJECT_DIR}/git/resume/index.html`, {
     waitUntil: 'networkidle0',
   });
 
-  const screenshotPath = path.resolve(__dirname, '../dist/screenshot.png');
+  const screenshotPath = path.resolve(__dirname, '../git/resume/screenshot.png');
   // eslint-disable-next-line no-console
   console.log(`Writing screenshot to ${screenshotPath}`);
   await page.screenshot({ path: screenshotPath });

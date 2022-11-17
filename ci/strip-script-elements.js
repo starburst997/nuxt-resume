@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 
-const indexFilePath = path.join(__dirname, '../dist/index.html');
+const indexFilePath = path.join(__dirname, '../git/resume/index.html');
 console.log(`Loading HTML from ${indexFilePath}...`);
 const indexHtml = fs.readFileSync(indexFilePath, 'utf8');
 

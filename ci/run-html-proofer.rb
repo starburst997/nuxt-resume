@@ -5,7 +5,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'html-proofer'
 
-dist_dir = File.expand_path(File.join(__dir__, '../dist'))
+dist_dir = File.expand_path(File.join(__dir__, '../git/resume'))
 HTMLProofer.check_directory(dist_dir, {
   :url_ignore => ['https://www.linkedin.com/in/nfriend/'],
   :check_html => true,
