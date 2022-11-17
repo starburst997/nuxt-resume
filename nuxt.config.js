@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const googleFontsLink =
   'https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap';
 

@@ -18,6 +18,7 @@
     "resume.json": "ci/generate-resume.json.js"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "lodash": "4.17.20",
     "moment": "2.29.1",
     "nuxt": "2.12.2",

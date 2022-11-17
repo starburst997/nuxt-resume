@@ -64,21 +64,16 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} run test
       - name: Lint
         run: ${{ steps.detect-package-manager.outputs.manager }} run lint
-      - name: create env file
+      - name: Create env file
         run: |
           touch .env
           echo "CI=1" >> .env
-          echo "CI_PROJECT_URL='https://github.com/starburst997/nuxt-resume'"" >> .env
-          echo "CI_COMMIT_SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`"" >> .env
-          echo "NODE_ENV=production" >> .env
+          echo "CI_PROJECT_URL='https://github.com/starburst997/nuxt-resume'" >> .env
+          echo "CI_COMMIT_SHORT_SHA='${{ steps.vars.outputs.sha_short }}'" >> .env
+          echo "NODE_ENV='production'" >> .env
       - name: Check outputs env
-        run: echo .env
+        run: cat .env
       - name: Static HTML export with Nuxt
-        env:
-          CI: 1
-          CI_COMMIT_SHORT_SHA: '${{ steps.vars.outputs.sha_short }}'
-          CI_PROJECT_URL: 'https://github.com/starburst997/nuxt-resume'
-          NODE_ENV: 'production'
         run: |
           ${{ steps.detect-package-manager.outputs.manager }} run generate
           ${{ steps.detect-package-manager.outputs.manager }} run strip-scripts
@@ -86,7 +81,11 @@ jobs:
         uses: browser-actions/setup-chrome@latest
       - name: Generate PDF
         run: ci/generate-pdf.sh
-      
+      - name: Remove files
+        run: |
+          rm -Rf git/resume/_nuxt
+          rm git/resume/200.html
+          rm git/resume/README.md
       - name: Commit changes
         working-directory: git
         run: |
