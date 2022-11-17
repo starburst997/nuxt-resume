@@ -27,7 +27,7 @@ jobs:
         with:
           repository: starburst997/starburst997.github.io
           path: git
-          ref: "main"
+          ref: "master"
           lfs: false
           token: ${{ secrets.pat }}
       - name: Detect package manager
