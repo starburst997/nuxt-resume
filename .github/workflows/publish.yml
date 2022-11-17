@@ -1,4 +1,4 @@
-name: Deploy resume to github pages
+name: pipeline
 
 on:
   push:
@@ -13,13 +13,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      CI: 1
-      CI_PROJECT_URL: 'https://github.com/starburst997/nuxt-resume'
-
     steps:
-      - name: Add CI_COMMIT_SHORT_SHA env property with commit short sha
-        run: echo "CI_COMMIT_SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
       - name: Checkout
         uses: actions/checkout@v3
       - name: Checkout github page
@@ -59,6 +53,12 @@ jobs:
           key: ${{ runner.os }}-nuxt-build-${{ hashFiles('git/resume') }}
           restore-keys: |
             ${{ runner.os }}-nuxt-build-
+      - name: create env file
+        run: |
+          touch .env
+          echo CI=1 >> .env
+          echo CI_PROJECT_URL='https://github.com/starburst997/nuxt-resume' >> .env
+          echo CI_COMMIT_SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8` >> .env
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Test

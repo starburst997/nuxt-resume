@@ -7,7 +7,7 @@
     <span v-else class="mr-2">Running locally</span>
     <a
       class="mr-2"
-      href="https://github.com/starburst997/nuxt-resume/pipelines/latest"
+      href="https://github.com/starburst997/nuxt-resume/actions/workflows/publish.yml"
     >
       <img
         class="inline h-5 -mt-1"
@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     refreshPipelineStatus() {
-      this.pipelineStatusUrl = `https://github.com/starburst997/nuxt-resume/badges/master/pipeline.svg#${Date.now()}`;
+      this.pipelineStatusUrl = `https://github.com/starburst997/nuxt-resume/actions/workflows/publish.yml/badge.svg#${Date.now()}`;
     },
   },
 };
