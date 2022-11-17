@@ -53,19 +53,32 @@ jobs:
           key: ${{ runner.os }}-nuxt-build-${{ hashFiles('git/resume') }}
           restore-keys: |
             ${{ runner.os }}-nuxt-build-
-      - name: create env file
-        run: |
-          touch .env
-          echo CI=1 >> .env
-          echo CI_PROJECT_URL='https://github.com/starburst997/nuxt-resume' >> .env
-          echo CI_COMMIT_SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8` >> .env
+      - name: Set outputs
+        id: vars
+        run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+      - name: Check outputs
+        run: echo ${{ steps.vars.outputs.sha_short }}
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Test
         run: ${{ steps.detect-package-manager.outputs.manager }} run test
       - name: Lint
         run: ${{ steps.detect-package-manager.outputs.manager }} run lint
+      - name: create env file
+        run: |
+          touch .env
+          echo "CI=1" >> .env
+          echo "CI_PROJECT_URL='https://github.com/starburst997/nuxt-resume'"" >> .env
+          echo "CI_COMMIT_SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`"" >> .env
+          echo "NODE_ENV=production" >> .env
+      - name: Check outputs env
+        run: echo .env
       - name: Static HTML export with Nuxt
+        env:
+          CI: 1
+          CI_COMMIT_SHORT_SHA: '${{ steps.vars.outputs.sha_short }}'
+          CI_PROJECT_URL: 'https://github.com/starburst997/nuxt-resume'
+          NODE_ENV: 'production'
         run: |
           ${{ steps.detect-package-manager.outputs.manager }} run generate
           ${{ steps.detect-package-manager.outputs.manager }} run strip-scripts

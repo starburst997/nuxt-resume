@@ -12,6 +12,7 @@ const indexHtml = fs.readFileSync(indexFilePath, 'utf8');
 console.log('Stripping all Nuxt <script> elements...');
 const $ = cheerio.load(indexHtml);
 $('script:not(.do-not-strip)').remove();
+$("link[as='script']:not(.do-not-strip)").remove();
 
 console.log(`Overwriting ${indexFilePath}...`);
 fs.writeFileSync(indexFilePath, $.html());
