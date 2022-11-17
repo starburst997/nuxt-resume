@@ -62,7 +62,7 @@ jobs:
       - name: Generate PDF
         run: ci/generate-pdf.sh
       - name: Generate GIST
-        run: yarn run resume.json --github-pat ${{ secrets.pat }} --gitlab-pat ${{ secrets.pat_gitlab }}
+        run: yarn run resume.json --github-pat ${{ secrets.pat_gist }} --gitlab-pat ${{ secrets.pat_gitlab }}
       - name: Lint JSON
         run: yarn run resume.json
       - name: Remove files
