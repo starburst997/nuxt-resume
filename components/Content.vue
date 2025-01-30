@@ -47,7 +47,7 @@
               <Tag
                 v-for="(tag, tagIndex) in subsection.tags"
                 :key="tagIndex"
-                :url="tag.url"
+                :website="tag.url"
               >
                 {{ tag.display || tag }}
               </Tag>
