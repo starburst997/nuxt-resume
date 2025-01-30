@@ -73,27 +73,27 @@ const config = {
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: '/apple-touch-icon.png',
+        href: '/assets/meta/apple-touch-icon.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: '/favicon-32x32.png',
+        href: '/assets/meta/favicon-32x32.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: '/favicon-16x16.png',
+        href: '/assets/meta/favicon-16x16.png',
       },
       {
         rel: 'manifest',
-        href: '/site.webmanifest',
+        href: '/assets/meta/site.webmanifest',
       },
       {
         rel: 'mask-icon',
-        href: '/safari-pinned-tab.svg',
+        href: '/assets/meta/safari-pinned-tab.svg',
         color: '#5bbad5',
       },
     ],
