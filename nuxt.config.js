@@ -20,7 +20,7 @@ const config = {
         hid: 'description',
         name: 'description',
         content:
-          "Jean-Denis Boivin's résumé. Built with NuxtJS and Tailwind CSS.",
+          "Fast learner and auto-dictate, I've been enjoying programming since I was a kid.",
       },
       {
         property: 'og:type',
@@ -33,7 +33,7 @@ const config = {
       {
         property: 'og:description',
         content:
-          "Jean-Denis Boivin's résumé. Built with NuxtJS and Tailwind CSS.",
+          "Fast learner and auto-dictate, I've been enjoying programming since I was a kid.",
       },
       {
         property: 'og:image',
