@@ -37,7 +37,7 @@ const config = {
       },
       {
         property: 'og:image',
-        content: 'https://jd.boiv.in/resume/screenshot.png',
+        content: 'https://jd.boiv.in/assets/images/resume_screenshot.png',
       },
       {
         property: 'og:image:type',
