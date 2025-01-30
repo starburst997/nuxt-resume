@@ -1,7 +1,7 @@
 <template>
   <a
-    v-if="website"
-    :href="website"
+    v-if="url"
+    :href="url"
     class="tag hover:bg-gray-400 hover:text-gray-800 active:bg-gray-500 active:text-gray-900"
   >
     <slot></slot>

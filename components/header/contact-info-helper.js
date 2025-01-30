@@ -124,7 +124,7 @@ export const getLinkedInInfo = resumeData => {
  * @returns {Object} A contact info object if the data was found, otherwise `null`
  */
 export const getWebsiteInfo = resumeData => {
-  const website = resumeData.basics?.website;
+  const website = resumeData.basics?.url;
 
   if (website) {
     return {

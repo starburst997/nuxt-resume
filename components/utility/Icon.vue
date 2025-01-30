@@ -1,6 +1,6 @@
 <template>
   <svg
-    v-if="type === 'website'"
+    v-if="type === 'url'"
     aria-hidden="true"
     focusable="false"
     role="img"
@@ -143,7 +143,7 @@ export default {
       type: String,
       validator: name =>
         [
-          'website',
+          'url',
           'email',
           'phone',
           'location',

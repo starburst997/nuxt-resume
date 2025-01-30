@@ -32,7 +32,7 @@ const formatDate = (dateString, format = 'MMM YYYY') => {
 const getWorkInfo = (resumeData, filterFn) => {
   return resumeData.work.filter(filterFn).map(w => ({
     ...w,
-    title: w.company,
+    title: w.name,
     subtitle: `${formatDate(w.startDate)} – ${formatDate(w.endDate)} | ${
       w.position
     }`,

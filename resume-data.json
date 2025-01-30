@@ -23,7 +23,7 @@
     "label": "Software Engineer",
     "picture": "https://jd.boiv.in/assets/images/JD_picture.jpg",
     "email": "jd@boiv.in",
-    "website": "https://jd.boiv.in",
+    "url": "https://jd.boiv.in",
     "summary": "Fast learner and auto-dictate, I’ve been enjoying programming since I was a kid",
     "location": {
       "city": "Montréal",
@@ -56,8 +56,8 @@
 
   "work": [
     {
-      "company": "Notessimo",
-      "website": "https://notessimo.net/",
+      "name": "Notessimo",
+      "url": "https://notessimo.net/",
       "summary": "Making a fun and collaborative music composer in Unity.",
       "highlights": [
         "Audio engine made from scratch",
@@ -69,53 +69,53 @@
       "tags": [
         {
           "display": "Unity",
-          "website": "https://unity.com/"
+          "url": "https://unity.com/"
         },
         {
           "display": "Next.js",
-          "website": "https://nextjs.org/"
+          "url": "https://nextjs.org/"
         },
         {
           "display": "C#",
-          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+          "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
         },
         {
           "display": "React",
-          "website": "https://reactjs.org/"
+          "url": "https://reactjs.org/"
         },
         {
           "display": "Discourse",
-          "website": "https://www.discourse.org/"
+          "url": "https://www.discourse.org/"
         },
         {
           "display": "Kubernetes",
-          "website": "https://kubernetes.io/"
+          "url": "https://kubernetes.io/"
         },
         {
           "display": "PostgreSQL",
-          "website": "https://www.postgresql.org/"
+          "url": "https://www.postgresql.org/"
         },
         {
           "display": "PHP",
-          "website": "https://www.php.net/"
+          "url": "https://www.php.net/"
         },
         {
           "display": "JavaScript",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
         {
           "display": "TypeScript",
-          "website": "https://www.typescriptlang.org/"
+          "url": "https://www.typescriptlang.org/"
         },
         {
           "display": "SCSS",
-          "website": "https://sass-lang.com/"
+          "url": "https://sass-lang.com/"
         }
       ]
     },
     {
-      "company": "Thunder Lotus Games",
-      "website": "https://thunderlotusgames.com/",
+      "name": "Thunder Lotus Games",
+      "url": "https://thunderlotusgames.com/",
       "summary": "I built internal tools (animation) as well as overseeing the multiplayer tech for an unanounced project in Unity.",
       "highlights": [
         "Changed the tech stack to better suit the project"
@@ -126,25 +126,25 @@
       "tags": [
         {
           "display": "Unity",
-          "website": "https://unity.com/"
+          "url": "https://unity.com/"
         },
         {
           "display": "C#",
-          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+          "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
         },
         {
           "display": "ECS",
-          "website": "https://unity.com/ecs"
+          "url": "https://unity.com/ecs"
         },
         {
           "display": "Quantum (Photon)",
-          "website": "https://www.photonengine.com/quantum"
+          "url": "https://www.photonengine.com/quantum"
         }
       ]
     },
     {
-      "company": "Mino Games",
-      "website": "https://www.minogames.com/",
+      "name": "Mino Games",
+      "url": "https://www.minogames.com/",
       "summary": "Worked on the mobile game \"Cat Game\" (10M+ downloads). Was in charge of pretty much everything tech related.",
       "highlights": [
         "Designed the minigames",
@@ -159,45 +159,45 @@
       "tags": [
         {
           "display": "Haxe",
-          "website": "https://haxe.org/"
+          "url": "https://haxe.org/"
         },
         {
           "display": "OpenFL",
-          "website": "https://www.openfl.org/"
+          "url": "https://www.openfl.org/"
         },
         {
           "display": "JavaScript",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
         {
           "display": "Node",
-          "website": "https://nodejs.org/"
+          "url": "https://nodejs.org/"
         },
         {
           "display": "DynamoDB",
-          "website": "https://aws.amazon.com/dynamodb/"
+          "url": "https://aws.amazon.com/dynamodb/"
         },
         {
           "display": "BigQuery",
-          "website": "https://cloud.google.com/bigquery"
+          "url": "https://cloud.google.com/bigquery"
         },
         {
           "display": "Java",
-          "website": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+          "url": "https://en.wikipedia.org/wiki/Java_(programming_language)"
         },
         {
           "display": "Objective-C",
-          "website": "https://en.wikipedia.org/wiki/Objective-C"
+          "url": "https://en.wikipedia.org/wiki/Objective-C"
         },
         {
           "display": "C++",
-          "website": "https://en.wikipedia.org/wiki/C%2B%2B"
+          "url": "https://en.wikipedia.org/wiki/C%2B%2B"
         }
       ]
     },
     {
-      "company": "CINCO Lab",
-      "website": "https://wearecinco.com/",
+      "name": "CINCO Lab",
+      "url": "https://wearecinco.com/",
       "summary": "Created multiple websites / experiences / apps (hardware & software) for this marketing agency, mainly used in events to promote brands.",
       "highlights": [
         "VR / AR experiences in Unity",
@@ -209,57 +209,57 @@
       "tags": [
         {
           "display": "Unity",
-          "website": "https://unity.com/"
+          "url": "https://unity.com/"
         },
         {
           "display": "Angular",
-          "website": "https://angular.io/"
+          "url": "https://angular.io/"
         },
         {
           "display": "React Native",
-          "website": "https://reactnative.dev/"
+          "url": "https://reactnative.dev/"
         },
         {
           "display": "Raspberry Pi",
-          "website": "https://www.raspberrypi.org/"
+          "url": "https://www.raspberrypi.org/"
         },
         {
           "display": "Arduino",
-          "website": "https://www.arduino.cc/"
+          "url": "https://www.arduino.cc/"
         },
         {
           "display": "JavaScript",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
         {
           "display": "PHP",
-          "website": "https://www.php.net/"
+          "url": "https://www.php.net/"
         },
         {
           "display": "C#",
-          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+          "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
         },
         {
           "display": "C",
-          "website": "https://en.wikipedia.org/wiki/C_(programming_language)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
           "display": "Objective-C",
-          "website": "https://en.wikipedia.org/wiki/Objective-C"
+          "url": "https://en.wikipedia.org/wiki/Objective-C"
         },
         {
           "display": "Swift",
-          "website": "https://www.swift.org/"
+          "url": "https://www.swift.org/"
         },
         {
           "display": "MySQL",
-          "website": "https://www.mysql.com/"
+          "url": "https://www.mysql.com/"
         }
       ]
     },
     {
-      "company": "Bethesda Game Studios (Austin, TX)",
-      "website": "https://bethesdagamestudios.com/",
+      "name": "Bethesda Game Studios (Austin, TX)",
+      "url": "https://bethesdagamestudios.com/",
       "summary": "Developed the UI for the cancelled game Battle Cry",
       "position": "UI Developer",
       "startDate": "2015-03-01",
@@ -268,21 +268,21 @@
       "tags": [
         {
           "display": "Scaleform",
-          "website": "https://en.wikipedia.org/wiki/Scaleform_GFx"
+          "url": "https://en.wikipedia.org/wiki/Scaleform_GFx"
         },
         {
           "display": "AS2",
-          "website": "https://en.wikipedia.org/wiki/ActionScript"
+          "url": "https://en.wikipedia.org/wiki/ActionScript"
         },
         {
           "display": "CryEngine",
-          "website": "https://www.cryengine.com/"
+          "url": "https://www.cryengine.com/"
         }
       ]
     },
     {
-      "company": "FailSafe Games",
-      "website": "https://www.failsafegames.com/",
+      "name": "FailSafe Games",
+      "url": "https://www.failsafegames.com/",
       "summary": "Flash Games / Mobile Ports and Websites for clients.",
       "highlights": [
         "Game Jam winner",
@@ -296,49 +296,49 @@
       "tags": [
         {
           "display": "Flash",
-          "website": "https://en.wikipedia.org/wiki/Adobe_Flash"
+          "url": "https://en.wikipedia.org/wiki/Adobe_Flash"
         },
         {
           "display": "AS3",
-          "website": "https://en.wikipedia.org/wiki/ActionScript"
+          "url": "https://en.wikipedia.org/wiki/ActionScript"
         },
         {
           "display": "Haxe",
-          "website": "https://haxe.org/"
+          "url": "https://haxe.org/"
         },
         {
           "display": "OpenFL",
-          "website": "https://www.openfl.org/"
+          "url": "https://www.openfl.org/"
         },
         {
           "display": "Java",
-          "website": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+          "url": "https://en.wikipedia.org/wiki/Java_(programming_language)"
         },
         {
           "display": "Objective-C",
-          "website": "https://en.wikipedia.org/wiki/Objective-C"
+          "url": "https://en.wikipedia.org/wiki/Objective-C"
         },
         {
           "display": "SmartFoxServer",
-          "website": "https://www.smartfoxserver.com/"
+          "url": "https://www.smartfoxserver.com/"
         },
         {
           "display": "jQuery",
-          "website": "https://jquery.com/"
+          "url": "https://jquery.com/"
         },
         {
           "display": "PHP",
-          "website": "https://www.php.net/"
+          "url": "https://www.php.net/"
         },
         {
           "display": "MySQL",
-          "website": "https://www.mysql.com/"
+          "url": "https://www.mysql.com/"
         }
       ]
     },
     {
-      "company": "ODD1",
-      "website": "",
+      "name": "ODD1",
+      "url": "",
       "summary": "Developed dozens of flash games (and iOS) for this defunct Montréal company, mostly for cartoon TV shows.",
       "position": "Programmer",
       "startDate": "2008-07-01",
@@ -347,23 +347,23 @@
       "tags": [
         {
           "display": "Flash",
-          "website": "https://en.wikipedia.org/wiki/Adobe_Flash"
+          "url": "https://en.wikipedia.org/wiki/Adobe_Flash"
         },
         {
           "display": "AS3",
-          "website": "https://en.wikipedia.org/wiki/ActionScript"
+          "url": "https://en.wikipedia.org/wiki/ActionScript"
         },
         {
           "display": "Objective-C",
-          "website": "https://en.wikipedia.org/wiki/Objective-C"
+          "url": "https://en.wikipedia.org/wiki/Objective-C"
         },
         {
           "display": "PHP",
-          "website": "https://www.php.net/"
+          "url": "https://www.php.net/"
         },
         {
           "display": "MySQL",
-          "website": "https://www.mysql.com/"
+          "url": "https://www.mysql.com/"
         }
       ]
     }
@@ -388,35 +388,35 @@
       "keywords": [
         {
           "display": "C#",
-          "website": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+          "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
         },
         {
           "display": "Haxe",
-          "website": "https://haxe.org/"
+          "url": "https://haxe.org/"
         },
         {
           "display": "JavaScript",
-          "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
         {
           "display": "TypeScript",
-          "website": "https://www.typescriptlang.org/"
+          "url": "https://www.typescriptlang.org/"
         },
         {
           "display": "PHP",
-          "website": "https://www.php.net/"
+          "url": "https://www.php.net/"
         },
         {
           "display": "C",
-          "website": "https://en.wikipedia.org/wiki/C_(programming_language)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
           "display": "SCSS",
-          "website": "https://sass-lang.com/"
+          "url": "https://sass-lang.com/"
         },
         {
           "display": "SQL",
-          "website": "https://en.wikipedia.org/wiki/SQL"
+          "url": "https://en.wikipedia.org/wiki/SQL"
         }
       ]
     },
@@ -425,31 +425,31 @@
       "keywords": [
         {
           "display": "Unity",
-          "website": "https://unity.com/"
+          "url": "https://unity.com/"
         },
         {
           "display": "Next.js",
-          "website": "https://nextjs.org/"
+          "url": "https://nextjs.org/"
         },
         {
           "display": "React",
-          "website": "https://reactjs.org/"
+          "url": "https://reactjs.org/"
         },
         {
           "display": "OpenFL",
-          "website": "https://www.openfl.org/"
+          "url": "https://www.openfl.org/"
         },
         {
           "display": "AWS",
-          "website": "https://aws.amazon.com/"
+          "url": "https://aws.amazon.com/"
         },
         {
           "display": "Kubernetes",
-          "website": "https://kubernetes.io/"
+          "url": "https://kubernetes.io/"
         },
         {
           "display": "WPF",
-          "website": "https://en.wikipedia.org/wiki/Windows_Presentation_Foundation"
+          "url": "https://en.wikipedia.org/wiki/Windows_Presentation_Foundation"
         }
       ]
     },

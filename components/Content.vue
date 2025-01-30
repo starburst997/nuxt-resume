@@ -12,7 +12,7 @@
 
           <section v-for="subsection in section.subsections" class="mb-6">
             <h3 v-if="subsection.title" class="font-bold text-lg">
-              <a v-if="subsection.website" :href="subsection.website">
+              <a v-if="subsection.url" :href="subsection.url">
                 {{ subsection.title }}
               </a>
               <span v-else>
@@ -47,7 +47,7 @@
               <Tag
                 v-for="(tag, tagIndex) in subsection.tags"
                 :key="tagIndex"
-                :website="tag.website"
+                :url="tag.url"
               >
                 {{ tag.display || tag }}
               </Tag>
